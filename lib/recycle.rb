@@ -18,16 +18,43 @@
 #1. Define a method `address`, that takes a hash as an argument.
 #This method should return the value of the address key in the hash.
 
+first_recycle_bin = {
+  "address" => "E 227 St/Bronx River Pkway",
+  "site_type" => "Subproperty",
+  "longitude"=>"-73.864223918",
+  "borough"=>"Bronx",
+  "latitude"=>"40.890848989",
+  "park_site_name"=>"227th St. Plgd"
+}
+
 #2. Define a method called `borough` that takes a hash as an argument.
 # This method should return the value of the borough key in the hash.
+
+second_recycle_bin = {
+  "address" => "Allerton Ave & Moshulu Pkway",
+  "site_type"=>"Subproperty",
+  "longitude"=>"-73.8771283938",
+  "borough"=>"Bronx",
+  "latitude"=>"40.8488907878",
+  "park_site_name"=>"Allerton Ballfields"}
+}
 
 #3. Define a method called `all_keys` that takes a hash as an argument.
 #This method should print out each key in the hash. 
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
+third_recycle_bin = {
+  "address"=>"Arthur Ave & 187 St",
+  "site_type"=>"Outdoor",
+  "longitude"=>"-73.887564999999995",
+  "borough"=>"Bronx",
+  "latitude"=>"40.85557",
+  "park_site_name"=>"Arthur Ave & E 187 St"}
+ 
 #4. Define a method called `all_data` that takes a hash as an argument.
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
+
 
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
