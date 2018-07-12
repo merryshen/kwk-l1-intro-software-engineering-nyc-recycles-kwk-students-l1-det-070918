@@ -55,7 +55,14 @@ third_recycle_bin = {
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
 
-
+fourth_recycle_bin = {
+  "address"=>"895 Shore Road, Pelham Bay Park",
+  "site_type"=>"Outdoor ",
+  "longitude"=>"-73.805549",
+  "borough"=>"Bronx",
+  "latitude"=>"40.871864",
+  "park_site_name"=>"Barstow Mansion"}
+  
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
 #You should use the `each` method to iterate over your hash to print out that sentence
