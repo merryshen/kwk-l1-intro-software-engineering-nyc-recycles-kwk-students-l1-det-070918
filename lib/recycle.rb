@@ -42,6 +42,9 @@ end
 #This method should print out each value in the hash.
 #You should use the `each_value` method to iterate over your hash and print out each value.
 
+def all_data(first_recycle_bin)
+puts first_recycle_bin.values
+end
   
 #5. Define a method called `key_and_data` that takes a hash as an argument.
 #This method should print out each key and value in the hash in a sentence like this: `The #{key} is #{value}`
