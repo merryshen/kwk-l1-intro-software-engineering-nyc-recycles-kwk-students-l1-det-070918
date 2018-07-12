@@ -34,7 +34,8 @@ end
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
 def all_keys(first_recycle_bin)
-  puts first_recycle_bin.all_k
+  puts first_recycle_bin.keys 
+end
 
  
 #4. Define a method called `all_data` that takes a hash as an argument.
