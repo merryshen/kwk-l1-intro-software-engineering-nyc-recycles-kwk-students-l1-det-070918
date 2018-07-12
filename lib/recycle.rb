@@ -19,7 +19,7 @@
 #This method should return the value of the address key in the hash.
 
 def address(first_recycle_bin)
- puts first_recycle_bin["address"]
+  first_recycle_bin["address"]
 end 
 address_key
 
